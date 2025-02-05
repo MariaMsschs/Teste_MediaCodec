@@ -2,8 +2,6 @@ package com.pluto.mediacodec
 
 import android.media.*
 import java.io.File
-import java.io.FileOutputStream
-import java.nio.ByteBuffer
 
 object AudioCompressor {
     fun compressAudio(inputFile: File, outputFile: File, bitRate: Int = 64000): Boolean {
